@@ -1,10 +1,94 @@
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
-    margin-left: 15px;
+    margin: 0;
+    padding: 0;
 
 }
 
-h1 {}
+/*
+see https://www.w3schools.com/css/css_navbar_vertical.asp 
+*/
 
-.links {}
+
+
+html,
+body {
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #9d8989;
+}
+
+main {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.header {
+    padding: 40px;
+    text-align: center;
+    background: #c04646;
+    color: white;
+    font-size: 30px;
+}
+
+spacer {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+h1,
+p {
+    padding: 10px;
+    margin: 0px;
+}
+
+p.sub {
+    padding: +10px;
+}
+
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* width: 200px; */
+    background-color: #f1f1f1;
+}
+
+li.navElement {
+    float: left;
+    display: inline;
+    border-right: 1px solid rgb(204, 204, 204);
+}
+
+li.navElement a {
+    display: block;
+    color: #000;
+    /* width: 80px; */
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li.navElementRight {
+    float: right;
+    border-left: 1px solid rgb(204, 204, 204);
+}
+
+
+li.navElement a.active {
+    background-color: #e9d010;
+    color: white;
+}
+
+/* Change the link color on hover, as long as its a different page than the one youre on */
+li.navElement a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
