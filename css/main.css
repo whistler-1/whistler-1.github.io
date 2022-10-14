@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto&display=swap');
+
 * {
+    /* font-family: 'EB Garamond', serif; 
+    font-family: 'Roboto', sans-serif; */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     box-sizing: border-box;
     margin: 0;
@@ -7,6 +11,7 @@
 }
 
 /*
+move some of this to index.css
 see https://www.w3schools.com/css/css_navbar_vertical.asp 
 */
 
